@@ -10,3 +10,7 @@ def store(request):
 def cart(request):
     context = {}
     return render(request, 'store/cart.html', context)
+
+def catalogue(request):
+    context = {}
+    return render(request, 'store/catalogue.html', context)
